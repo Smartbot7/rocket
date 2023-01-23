@@ -21,7 +21,7 @@ function hide() {
 
 function subtraction() {
     if (second == 0) {
-        countDown.innerHTML = "Поехали!"
+        countDown.innerHTML = "Ура полетела!"
         clearInterval(timerId);
         rocket.style.bottom = "1000px"
         setTimeout(hide, 5000)
